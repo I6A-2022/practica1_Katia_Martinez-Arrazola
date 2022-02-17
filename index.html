@@ -43,9 +43,9 @@
             <li>Kevin</li>
             <li>Katia</li>
     </strong>
-            <li id="IDSamantha">Samantha</li>
-            <li id="idzagitl">Belén</li>
-            <li class="idzagitl">Zagitl</li>
+            <li id="IDSamantha">Samantha</li> <!--Sólo se utiliza el ID una sola vez-->
+            <li class="idzagitl">Belén</li>
+            <li class="idzagitl">Zagitl</li> <!--El class se puede usar muchas veces-->
         </ul>
         <ol>
             <li>MILANESA</li>
@@ -66,5 +66,34 @@
         <li><h3>TEMA 3</h3></li>
         <p>INTRODUCCIÓN JS</p>
     </ul>
+
+    <style>
+        table, th, td {
+          border: 1px dashed rgb(63, 56, 56); /*Color sólido al borde de la tabla*/
+          border-collapse: collapse;
+        }
+        table.center {
+          margin-left: auto;
+          margin-right: auto;
+        }
+        </style>
+
+    <table style="float: right;"> <!--Sirve para que flote hacia una dirección determinada, también sirve para acomodar las listas-->
+        <tr>
+          <th>Nombre</th>
+          <th>CURP</th>
+          <th>Telefono</th>
+        </tr>
+        <tr>
+          <td>Kaia</td>
+          <td>MAAK010317MOCRRTA0</td>
+          <td>9511069336</td>
+        </tr>
+      </table> 
+
+    <br><br/>
+
+    <p>Visita nuestro local</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15259.479154251396!2d-96.72131518604827!3d17.03005591847956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c723224ffde4d7%3A0x97fc35a3f198387c!2sMcDonald&#39;s!5e0!3m2!1ses-419!2smx!4v1645115623103!5m2!1ses-419!2smx" width="300" height="300" style="float: right;" allowfullscreen="" loading="lazy"></iframe>
 </body>
 </html>
