@@ -4,72 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<HEAD>
-    <title>Pagina de Katia</title>
-
+    <title>Práctica 1 - Tema 1 - Katia Martínez</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <h1>ITVO</h1>
-    <p> 
-    <strong>
-        <ul>
-            <li>Kevin</li>
-            <li>Katia</li>
-    </strong>
-            <li id="IDSamantha">Samantha</li> <!--Sólo se utiliza el ID una sola vez-->
-            <li class="idzagitl">Belén</li>
-            <li class="idzagitl">Zagitl</li> <!--El class se puede usar muchas veces-->
-        </ul>
-        <ol>
-            <li>MILANESA</li>
-            <li>COLORADITO</li>
-            <li>ALITAS</li>
-            <li>CALDO DE RES</li>
-            <li>ENSALADA DE CAMARONES</li>
-            <li>CEVICHITO</li>
-        </ol>
-    </p> 
-    <h1>BIENVENIDO AL EJERCICIO</h1>
-    <P>En este ejercicio aprenderas CSS</P>
-    <ul>
-        <li><h2>TEMA 1</h2></li>
-        <p>INTRODUCCIÓN A HTML Y CSS</p>
-        <li><h2>TEMA 2</h2></li>
-        <p>INTRODUCCIÓN <strong id="IDStrong">CSS</strong></p>
-        <li><h3>TEMA 3</h3></li>
-        <p>INTRODUCCIÓN JS</p>
-    </ul>
+    <div id="contenedor">
+        <header>
+            <h1>BIENVENIDO A MI PÁGINA</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html" >INICIO</a></li>
+                <li><a target="_blank" href="https://github.com/19920166">MI PERFIL DE GITHUB</a></li>
+                <li><a target="_blank" href="https://www.google.com/">ACERCA DE</a></li>
+                <li><a target="_blank" href="https://instagram.com">COMPARTIR</a></li>
+            </ul>
+        </nav>
 
-    <form >
-        <input type="text">
-        <input type="checkbox">
-        <input type="color">
-        <input type="radio">
-        <input type="date">
-        <input type="datetime">
-        <input type="datetime-local">
-    </form> <!--Buscar las etiquetas restantes-->
+        <div class="ComponerSalto"></div>
 
-    <link rel="stylesheet" href="style.css">
-
-    <table style="float: right;"> <!--Sirve para que flote hacia una dirección determinada, también sirve para acomodar las listas-->
-        <tr>
-          <th>Nombre</th>
-          <th>CURP</th>
-          <th>Telefono</th>
-        </tr>
-        <tr>
-          <td>Kaia</td>
-          <td>MAAK010317MOCRRTA0</td>
-          <td>9511069336</td>
-        </tr>
-      </table> 
-
-    <br><br/>
-
-    <p>Visita nuestro local</p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15259.479154251396!2d-96.72131518604827!3d17.03005591847956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c723224ffde4d7%3A0x97fc35a3f198387c!2sMcDonald&#39;s!5e0!3m2!1ses-419!2smx!4v1645115623103!5m2!1ses-419!2smx" width="300" height="300" style="float: right;" allowfullscreen="" loading="lazy"></iframe>
+        <section id="contenido">
+            <article> <!--Tema 1-->
+                <h2>TEMA 1</h2>
+                <p>Introducción </p>
+            </article>
+            <article> <!--Tema 2-->
+                <h2>TEMA 2</h2>
+                <p>Descripción del tema 2</p>
+            </article>
+            <article> <!--Tema 3-->
+                <h2>TEMA 3</h2>
+                <p>Descripción del tema 3</p>
+            </article>
+            <article> <!--Tema 4-->
+                <h2>TEMA 4</h2>
+                <p>Descripción del tema 4</p>
+            </article>
+        </section>
+        <aside>
+            <h2>Barra lateral</h2>
+            <form>
+                <input type="search">
+                <input value="buscar" type="button">
+            </form>
+        </aside>
+        <div class="componerSalto"></div>
+        <footer >
+            Katia Angélica Martínez Arrazola &copy; 2022
+        </footer>
+    </div>
 </body>
 </html>

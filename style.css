@@ -1,37 +1,72 @@
-#IDSamantha{
-    color:brown; /*Se puede poner el nombre del color o por numero hexadecimal*/
-}
-
-.idzagitl{
-    color: cadetblue;
-}
 body{
-    background-color: white;
-}
-ul strong li{                  
-    color: violet;
-}
-
-ol li{                       /*Sólo afecta a los ol que están dentro de los li*/
-    color: yellowgreen;
-}
-ul li h2{
-    color: yellowgreen;
-}
-ul p {
-    color: brown;
-}
-#IDStrong{
-    color: black;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 
-table, th, td {
-    border: 1px dashed rgb(63, 56, 56); /*Color sólido al borde de la tabla*/
-    border-collapse: collapse;
-  }
-  table.center {
-    margin-left: auto;
-    margin-right: auto;
-  }
+#contenedor{
+    width: 70%; 
+    margin: 0px auto;
+    border: 5px solid black;
+}
+
+header{
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+nav{
+    background: purple;
+    line-height: 0px;
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+
+nav ul li {
+    margin: 20px;
+    float: left;
+    background-color: purple;
+}
+
+nav ul li a {
+    color: white;
+}
+
+aside{
+    width: 25%;
+    height: 500px;
+    line-height: 100px;
+    text-align: center;
+    background-color: orange;
+    float: right;
+}
+
+#contenido{
+    background-color: green;
+    text-align: center;
+    width: 75%;
+    height: 500px;
+    float: left;
+    
+}
+
+.componerSalto{
+    clear: both;
+}
