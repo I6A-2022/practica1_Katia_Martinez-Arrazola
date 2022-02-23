@@ -1,0 +1,37 @@
+#IDSamantha{
+    color:brown; /*Se puede poner el nombre del color o por numero hexadecimal*/
+}
+
+.idzagitl{
+    color: cadetblue;
+}
+body{
+    background-color: white;
+}
+ul strong li{                  
+    color: violet;
+}
+
+ol li{                       /*Sólo afecta a los ol que están dentro de los li*/
+    color: yellowgreen;
+}
+ul li h2{
+    color: yellowgreen;
+}
+ul p {
+    color: brown;
+}
+#IDStrong{
+    color: black;
+}
+
+
+
+table, th, td {
+    border: 1px dashed rgb(63, 56, 56); /*Color sólido al borde de la tabla*/
+    border-collapse: collapse;
+  }
+  table.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
